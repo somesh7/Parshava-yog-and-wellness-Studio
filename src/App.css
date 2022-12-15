@@ -1,38 +1,1456 @@
-.App {
+.header {
+  width: 100%;
+  height: 6rem;
+  top: 0;
+  position: fixed !important;
+  background-color: rgb(167 139 250);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ z-index: 1;
+}
+.image_logo {
+  width: 4rem; 
+  height: 4rem;
+}
+.logo_brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+h1 {
+  color: rgb(253 230 138);
+  font-size: 2rem;
+  font-weight: 600;
+  padding-left: 1rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+/* .new_homealice {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.aliceimghome {
+  width: 80%;
+  height: 35rem;
+  object-fit: auto !important;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+}
+.center_carasoul {
+  width: 100%;
+}
+.homeimg {
+  width: 100%;
+}
+.sliderimg2 {
+  width: 100%;
+  height: 35rem;
+}
+.pranayama_ben {
+  color:#ca8a04;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.duo_pranayama {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.prana_img {
+  height: 40rem;
+}
+.slider_img_home {
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.about_parshava {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.paragraph_About {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.about_us {
+}
+p {
+font-size: 1.5rem;
+padding-left: 2rem;
+padding-right: 2rem;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.servstyle {
+  font-size: 3rem;
+width: 20rem;
+height: 4rem;
+border: none;
+border-top-right-radius: 1rem;
+border-bottom-right-radius: 1rem;
+text-align: center !important;
+margin-top: 2rem;
+padding: .5rem;
+box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.servstyle_cont {
+  position: absolute;
+    font-size: 3rem;
+  width: 20rem;
+  height: 4rem;
+  border: none;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  text-align: center !important;
+  margin-top: 7rem;
+  padding: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 2.4px 2.4px 3.2px;
+}
+.serv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  height: auto;
+  overflow: hidden;
+}
+.pimg {
+  width: 50%;
+  margin-top: 2rem;
+}
+.sliderimg{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.brand {
+  font-size: 2rem;
+  color: #6b21a8;
+}
+h2 
+{
+font-size: 3rem;
+}
+.holly {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem;
+}
+.yoga {
+  width: 100%;
+  height: 40rem;
+  border: none;
+  background-color: rgb(214 211 209);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shimg {
+  width: 100%;
+  height: 20rem;
+}
+.bookheal {
+  margin-top: 2rem;
+}
+.benyog {
+  width: 40rem;
+  border-radius: .5rem;
+}
+.care {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30rem;
+}
+.para_chakra {
+color: #000;
+}
+.yoga_way {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  width: 100%;
+}
+.modaldon {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactus_card {
+  width: 40%;
+  height: 50rem;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 0 3px 10px 0 #aaa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.course {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  height: auto;
+  overflow: hidden;
+}
+.course2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  height: auto;
+  overflow: hidden;
+}
+.services {
+  margin-top: 2rem !important;
+}
+.olt {
+  margin: 2rem;
+}
+.olt_text {
+font-size: 2rem;
+font-weight: 500;
+}
+.well {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.well2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.left {
+  width: 50%;
+  height: 30rem;
+  left:0;
+  background-color: rgb(167 139 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left2 {
+  width: 50%;
+  height: 30rem;
+  left:0;
+}
+.left3 {
+  width: 50%;
+  height: 30rem;
+  /* background-color: rgb(167 139 250); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  width: 50%;
+  height: 30rem;
+  right:0;
+  display: flex;
+  justify-content: center;
+}
+.right2 {
+  width: 50%;
+  height: 30rem;
+  right:0;
+  display: flex;
+  justify-content: center;
+}
+.right3 {
+  width: 50%;
+  height: 30rem;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  color: #ca8a04;
+  font-size: 2rem;
+}
+.ult {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ult_text {
+  color: #fff;
+  font-size: 1.2rem;
+  padding-bottom: .5rem;
+}
+.split {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(31 41 55);
+}
+.splitIn_cols {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+}
+.ult_head {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ca8a04;
+}
+.ult_text1 {
+  font-size: 1.5rem;
+  color: #ca8a04;
+}
+.dropdown{
+  position: relative;
+}
+.whatsapp_logo {
+  border: none !important;
+  background-color: transparent;
+  cursor: pointer;
+}
+.menu {
+  position: fixed;
+  list-style-type: none;
+  border: none;
+  background-color: rgb(31 41 55);
+  width: 100%;
+  height: 3em;
+  top: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_bottom {
+  margin-top: 3.5rem;
+  position: absolute;
+}
+.screen_li_spl {
+  position: relative;
+  width: 6rem;
+  height: 4.5rem;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  padding-right: 2rem;
+}
+.nav_div {
+  
+}
+.screen {
+  width: 6rem;
+  height: 4.5rem;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position:relative !important;
+}
+.screen:hover {
+  width: 6rem;
+  height: 4.5rem;
+  border-bottom: 2px solid #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.drop_btn {
+ border: none;
+ background-color: transparent;
+ color: #fff;
+ font-size: 1rem;
+ cursor: pointer;
+}
+.nav_links {
+  width: 6rem;
+  height: 4.5rem;
+ outline: none;
+ color: rgb(253 230 138);
+  text-decoration:none;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav_links:hover {
+color: #fff;
+}
+/* / */
+.sessions {
+  font: 1.5rem;
+  color: #000;
+  font-weight: 600;
+  padding-left: 2rem;
+}
+.onetimeyoga {
+  font-size: 1.5rem;
+  color: #ca8a04;
+  text-decoration: underline;
+  padding-left: 2rem;
+}
+.categ {
+  font-size: 1.2rem;
+  color: #000;
+  padding-left: 2rem;
+}
+.menu-active {
+  width: 6rem;
+  height: 10rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+a.menu-active {
+  color: #fff !important;
+}
+.healing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+overflow: hidden;
+}
+.sound_healing {
+  margin-top: 5rem;
+  font-size: 2.5rem;
+  color: #ca8a04;
+  font-weight: 500;
+}
+.ther {
+  color: #ca8a04;
+}
+.readmore {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: 6rem;
+  height: 2.5rem;
+  border: none;
+  background-color: rgb(31 41 55);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: .3rem;
+  cursor: pointer;
+}
+.b1 {
+  width: 80%;
+  height: 15rem;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+  background-color: rgb(167 139 250);
+  color:wheat;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+.b2 {
+    width: 80%;
+    height: 20rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    background-color: rgb(167 139 250);
+    color: whitesmoke;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+}
+.b3 {
+    width: 80%;
+    height: 16rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    background-color: rgb(167 139 250);
+    color: whitesmoke;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+}
+.benefit_sound1 {
+  font-size: 2rem;
+}
+.videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  background-color: #000;
+}
+.b4 {
+  width: 80%;
+  height: 5rem;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+  background-color: rgb(167 139 250);
+  color: whitesmoke;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+.chakra_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+h4 {
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #ca8a04;
+}
+.Phy_health {
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #ca8a04;
+  margin-top: -2rem;
+}
+.chakra_actb {
+  margin-top: 5rem;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #ca8a04;
+}
+.chakra_ben {
+  width: 70%;
+  height: 30rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  background-color: rgb(167 139 250);
+  
+}
+.benefits_chakra {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: whitesmoke;
+  text-align: center;
   }
+.benefits_chakra1 {
+  font-size: 1.5rem;
+  color: rgb(253 230 138);
+  font-weight: 400;
+  margin-bottom: -2rem;
+}
+.quote {
+  font-size: 1.7rem;
+  padding-top: 2rem !important;
+  color: rgb(253 230 138);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  width: 20rem;
+  height: 24rem;
+  border: none;
+  border-radius: .3rem;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card:hover {
+  box-shadow: 0 0 55px rgba(0, 0, 0, 0.2), 0 0 60px rgba(0, 0, 0, 0.1);
+}
+.card_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image_book {
+  width: 20rem;
+  height: 10rem;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+}
+.text_card_content {
+  text-align: center;
+  color: #3b82f6;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+.para_content {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: -2rem;
+}
+.consult_btn {
+    width: 20rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ align-items: center;
+  border: none;
+  color: #fff;
+  border-bottom-left-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  background-color: rgb(167 139 250);
+  font-size: 1rem;
+  cursor: pointer;
+}
+.whatsapp_logo_chakra {
+  border:none;
+  background-color: transparent ;
+}
+.whatsapp {
+  left: 4rem;
+  bottom: 4rem;
+  position: fixed;
+  background-color: transparent;
+}
+.icon_app {
+}
+.chakra_more {
+  color: #ca8a04;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+.chakratotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+overflow: hidden;
+margin-bottom: 2rem;
+}
+.chakra_more1 {
+  color: #000;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+}
+.seven_chakra {
+  height: 180rem;
+  width: 100%;
+  border: none;
+  background-color: rgb(31 41 55);
+  display: flex;
+  flex-direction: column !important;
+}
+.image_chakra {
+  width: 100%;
+  height: 25rem;
+}
+.Chakras_def {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.muldhara {
+  width: 10rem;
+  height: 10rem;
+}
+.root {
+  width: 40rem;
+  color: #fff;
+}
+.first_def {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstChakra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.root_text {
+  color: #6b21a8;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.sacral_text {
+  width: 33rem;
+  color: #6b21a8;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.servHeal {
+  width: 18em;
+  height: 15rem;
+  border-top-right-radius: .5rem;
+  border-top-left-radius: .5rem;
+  cursor: pointer;
+}
+.serv_btn_all {
+  width: 6rem;
+  height: 2.5rem;
+  background-color: rgb(147 51 234);
+  color: #fff;
+  border: none;
+  border-radius: .3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.service_cards {
+  display:flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+}
+.card_Serv {
+  width: 18rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  align-items: center;
+  margin: 2rem;
+  box-shadow: 0 3px 10px 0 #aaa;
+  border-radius: .5rem;
+  position: relative;
+}
+.ser_text_All {
+  font-size: 1.5rem;
+  color: #6b21a8;
+}
+.footer {
+  width: 100%;
+  height: 5rem;  
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(4, 5vw); */
+  /* grid-gap: 1rem;  */
+  margin-top: 7rem;
+}
+.gallery__item {
+  height: 15rem;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+.copy_mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+.modal_div {
+}
+.input_num {
+  width: 18rem;
+  height: 3rem;
+  text-align: center;
+  border: 1px solid red;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.input_email {
+  width: 18rem;
+  height: 3rem;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1px solid red;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.email_btn {
+  width: 8rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+.icon-emailcheck {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.label-con {
+  margin-top: 1rem;
+}
+h5 {
+ text-align: center;
+ margin-top: -.5rem;
+}
+.form {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact_head {
+  width: 100%;
+  margin-top: 6rem;
+  height: 100%;
+}
+.contact_img {
+  width: 100%;
+  height: 25rem;
+}
+.contact_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 30rem;
+  border: none;
+}
+.profession {
+  width: 30rem;
+  height: 2.5rem;
+  background-color: rgb(234 88 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.contact_icons {
+  position: absolute;
+  margin-left: 7rem;
+  margin-top: 3rem;
+}
+.contact_icons1 {
+  position: absolute;
+  margin-left: 7rem;
+}
+.contact_icons2 {
+  position: absolute;
+  margin-left: 1rem;
+}
+.contact_icons3 {
+  position: absolute;
+}
+.owner_num {
+  width: 30rem;
+  height: 30rem;
+  background-color: rgb(252 211 77);
+  border: none;
+  box-shadow: 0 3px 10px 0 #aaa;
+  border-bottom: none;
+}
+.map {
+width: 50%;
+height: 30rem;
+}
+.ow_name {
+  /* width: 20rem;
+  height: 3rem; */
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ow_num {
+  font-size: 1rem;
+  color: #fff;
+}
+.footer_cont {
+  width: 100%;
+  height: 15rem;
+  margin-top: 3rem;
+  bottom: 0;
+  background-color: rgb(156 163 175);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.cont_nav_name {
+margin-top: 1rem;
+text-decoration: none;
+color: #fff;
+font-size: 1.5rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cont_nav_name:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 3rem;
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.copy_logo {
+
+}
+.insta {
+  margin-left: .5rem;
+}
+.btn_cpy {
+  margin-left: 1.5rem;
+  border:none;
+  background-color: rgb(147 51 234);
+  width: 4rem;
+  height: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+}
+.feng_div {
+  margin-top: 7rem;
+}
+.feng_def {
+  margin: 2rem;
+  font-size: 2rem;
+}
+.after_home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.left_after_home {
+  padding: 2rem;
+}
+
+.word1 {
+font-size: 2rem;
+text-align: center;
+}
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px){
+  .icon_bottom {
+    display: none;
+  }
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center !important;
+}
+h1 {
+  padding-right: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+ul {
+  background-color: none;
+}
+li {
+  background-color: none;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(4, 5vw); */
+  /* grid-gap: 1rem;  */
+  margin-top: 7rem;
+}
+.gallery__item {
+  margin: 1rem;
+}
+.gallery__img {
+  width: 10rem;
+}
+.about_parshava {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content:flex-start;
+  width: 100%;
+}
+.paragraph_About {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.about_us {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.pimg {
+  width: 100%;
+  margin: 2rem;
+}
+.yoga {
+  width: 100%;
+  height: 40rem;
+  border: none;
+  background-color: rgb(214 211 209);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+}
+.after_home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.contact_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.contact_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.left_after_home {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:100%;
 }
-
-.App-link {
-  color: #61dafb;
+p{
+    width: 100%;
+  text-align: center;
 }
+.bene_img {
+  width: 50rem;
+height: 50rem;
+}
+.bene_img_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* margin-left: 6rem; */
+}
+.pranayama_ben {
+  text-align: center;
+  font-size: 2rem;
+}
+.duo_pranayama {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+}
+.prana_img {
+  width: 50rem;
+  height: 50rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+}
+.prana_div_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.left_pranayama {
+  width: 100%;
+margin-top: none;
+}
+.word1, h4 {
+  text-align: center;
+}
+.aliceimghome {
+  margin-bottom: 0;
+}
+}
+@media (max-width: 500px) {
+  p{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.5rem !important;
   }
-  to {
-    transform: rotate(360deg);
+  .home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
+  
+  .after_home {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .left_after_home {
+    display: flex;
+    align-items: center !important;
+    height: 70rem;
+    margin-left: 1.5rem;
+  }
+  .new_homealice {
+    display: flex;
+   justify-content: center;
+    align-items: center;
+  }
+  .header {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .center_carasoul {
+    width: 80% !important;
+    display: flex;
+  }
+  .logo_brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  h1 {
+   text-align: center;
+   font-size: 1.5rem;
+  }
+  .word1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .bene_img{
+width: 100%;
+margin-right: 5rem;
+  }
+  .bene_img_div {
+    display: flex;
+    align-items: center;
+  }
+  .sis {
+    width: 30rem;
+    height:30rem;
+  }
+  .aliceimghome {
+    width: 90%;
+  height: 25rem;
+  object-fit: auto !important;
+  position: relative;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 5rem;
+  }
+  .about {
+    width: 100%;
+    margin-top: 8rem;
+  }
+  .serv {
+    margin-top: 8rem;
+  }
+  .pranayama {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .prana_img {
+    width: 100%;
+    height: 30rem;
+  }
+  .pranayama_ben {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: none;
+  }
+  .left_pranayama {
+    width: 100%;
+  }
+  .ul_prana {
+    text-align: center;
+  }
+  .duo_pranayama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .yoga {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .contact_head {
+    margin-top: 8rem;
+  }
+  .contact_card {
+    width: 100%;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .owner_num {
+    width: 100%;
+    height: 30rem;
+    padding: 1rem;
+  }
+   h6 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+  }
+.footer_cont {
+   width: 100%;
+   height: 25rem;
+  }
+  .profession {
+    width: 100%;
+height: 10rem;
+  }
+  .servstyle {
+    margin-right: 3rem;
+  }
+  .copyright {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #fff !important;
+  }
+  .well {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .ben_grp_yog {
+    width: 80%
+  }
+  .course2 {
+    margin-top: 8rem;
+  }
+  .well2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    width: 100%;
+  }
+  .left2 {
+    width: 20rem;
+    margin-right: 2rem;
+    height: 40rem;
+  }
+  .right2 {
+    width: 100%;
+  }
+  .corporate {
+    width: 90%;  
+  }
+  .cor2 {
+    width: 90%;
+  }
+  .cor3 {
+    width: 90%;
+  }
+  .sessions {
+    font-size: 1.5rem;
+    width: 100%;
+    height: 8rem;
+    background-color: rgb(167 139 250);
+    color: #fff;
+    padding: 2rem;
+  }
+  .healing {
+    margin-top: 8rem;
+  }
+  .care {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .left3 {
+height: auto;
+margin-top: 4rem;
+  }
+  .ther {
+    text-align: center;
+  }
+  .working_sound {
+    height: auto;
+    background-color: rgb(167 139 250);
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+  .b1, .b2, .b3, .b4 {
+    height: auto;
+    background-color: rgb(167 139 250);
+    display: flex;
+    padding-right: 5rem;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+ 
+  .benefit_sound1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+ .fourben {
+font-size: 1.5rem;
+text-align: center;
+ }
+ .chakra_div {
+   width: 100%;
+ }
+ .Phy_health {
+   padding: 1rem;
+   font-size: 1.5rem;
+ }
+ .chakra_actb {
+  padding: 1rem;
+  font-size: 1.5rem;
+ }
+ .chakra_ben {
+   height: auto;
+ }
+ .benefits_chakra1 {
+   margin-bottom: 1.5rem;
+ }
+ .quote {
+   margin-right: 2rem !important;
+ }
+ .chakratotal {
+   width: 100%;
+ }
+ .image_chakra {
+   width:100%;
+   height: 20rem;
+   object-fit: auto;
+ }
+ .Chakras_def {
+   width: 100%;
+   height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.first_def {
+padding: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+}
+.root_text {
+ text-align: center;
+}
+.sacral_text {
+  text-align: center;
+  height: 7rem;
+  width: 100%;
+}
+.root {
+  text-align: center;
+  width: 20rem;
+}
+.seven_chakra {
+  height: 340rem;
+  width: 100%;
+  border: none;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+.screen {
+  padding: .5rem;
+}
+.whatsapp {
+  top: 45rem;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+.pimg {
+  width: 100%;
+
+}
+.sliderimg {
+width: 30rem;
+}
 }
