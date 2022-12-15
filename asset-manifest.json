@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Parshava-yog-and-wellness-Studio/static/css/main.88b4aff1.css",
-    "main.js": "/Parshava-yog-and-wellness-Studio/static/js/main.64d82f4a.js",
-    "static/media/homeimg001.jpg": "/Parshava-yog-and-wellness-Studio/static/media/homeimg001.4b5faeb22c6b97d24f2b.jpg",
-    "static/media/MadhaviImg.jpg": "/Parshava-yog-and-wellness-Studio/static/media/MadhaviImg.be0bf3d65be4d00345de.jpg",
-    "static/media/Parshav_contact.jpg": "/Parshava-yog-and-wellness-Studio/static/media/Parshav_contact.1e0dca0b4b8ba84e0c6e.jpg",
-    "static/media/MadhaviImg1.jpg": "/Parshava-yog-and-wellness-Studio/static/media/MadhaviImg1.3178302edcff615cc825.jpg",
-    "static/media/MadhaviImg3.jpg": "/Parshava-yog-and-wellness-Studio/static/media/MadhaviImg3.88a09bb97f79526c52b9.jpg",
-    "index.html": "/Parshava-yog-and-wellness-Studio/index.html",
-    "main.88b4aff1.css.map": "/Parshava-yog-and-wellness-Studio/static/css/main.88b4aff1.css.map",
-    "main.64d82f4a.js.map": "/Parshava-yog-and-wellness-Studio/static/js/main.64d82f4a.js.map"
+    "main.css": "./https://somesh7.github.io/Parshava-yog-and-wellness-Studio/static/css/main.88b4aff1.css",
+    "main.js": "./https://somesh7.github.io/Parshava-yog-and-wellness-Studio/static/js/main.f964d27e.js",
+    "static/media/homeimg001.jpg": "./https://somesh7.github.io/Parshava-yog-and-wellness-Studio/static/media/homeimg001.4b5faeb22c6b97d24f2b.jpg",
+    "static/media/MadhaviImg.jpg": "./https://somesh7.github.io/Parshava-yog-and-wellness-Studio/static/media/MadhaviImg.be0bf3d65be4d00345de.jpg",
+    "static/media/Parshav_contact.jpg": "./https://somesh7.github.io/Parshava-yog-and-wellness-Studio/static/media/Parshav_contact.1e0dca0b4b8ba84e0c6e.jpg",
+    "static/media/MadhaviImg1.jpg": "./https://somesh7.github.io/Parshava-yog-and-wellness-Studio/static/media/MadhaviImg1.3178302edcff615cc825.jpg",
+    "static/media/MadhaviImg3.jpg": "./https://somesh7.github.io/Parshava-yog-and-wellness-Studio/static/media/MadhaviImg3.88a09bb97f79526c52b9.jpg",
+    "index.html": "./https://somesh7.github.io/Parshava-yog-and-wellness-Studio/index.html",
+    "main.88b4aff1.css.map": "./https://somesh7.github.io/Parshava-yog-and-wellness-Studio/static/css/main.88b4aff1.css.map",
+    "main.f964d27e.js.map": "./https://somesh7.github.io/Parshava-yog-and-wellness-Studio/static/js/main.f964d27e.js.map"
   },
   "entrypoints": [
     "static/css/main.88b4aff1.css",
-    "static/js/main.64d82f4a.js"
+    "static/js/main.f964d27e.js"
   ]
 }
