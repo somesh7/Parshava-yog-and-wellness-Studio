@@ -1,20 +1,13 @@
 import React from 'react'
-import SvgWhatsAppIcon from '@mui/icons-material/WhatsApp';
-import ReactWhatsapp from 'react-whatsapp';
-import SvgLinkedInIcon from '@mui/icons-material/LinkedIn';
-import SvgInstagramIcon from '@mui/icons-material/Instagram';
-import SvgPersonIcon from '@mui/icons-material/Person';
-import SvgPhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
-import SvgEmailIcon from '@mui/icons-material/Email';
-import SvgPlaceIcon from '@mui/icons-material/Place';
-import SvgFacebookIcon from '@mui/icons-material/Facebook';
-import { Link } from 'react-router-dom';
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 // import img1 from "../images/MadhaviImg.jpg"
 import img2 from "../images/MadhaviImg1.jpg"
 import img3 from "../images/MadhaviImg3.jpg"
 import group1 from "../images/homeimg001.jpg"
+import Footer from './Footer';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 
 
@@ -38,16 +31,19 @@ const About = () => {
                 </p>
               </div>
               <div className='pimg'>
-              <AliceCarousel autoPlay infinite autoPlayInterval="1500" autoPlayStrategy='none' disableDotsControls={true} disableButtonsControls={true}>
-      <img src={group1} className="sliderimg" alt='Madhavi Jain'/>
-      <img src={img2} className="sliderimg" alt="Madhavi Jain"/>
-      <img src={img3} className="sliderimg" alt="Madhavi Jain"/>
-
-</AliceCarousel>
+              <Carousel className='new_carosel' autoPlay interval={1500} autoFocus infiniteLoop showArrows={true} showIndicators={false} showThumbs={false} swipeable={true} showStatus={false}>
+                <div>
+                    <img className='auto_about_img' src={group1} />
+                    
+                </div>
+                <div>
+                    <img className='auto_about_img' src={img2} />
+                </div>
+                <div>
+                    <img className='auto_about_img' src={img3} />
+                </div>
+            </Carousel>
               </div>
-              <span>
-                  
-              </span>
               
               </div>
              
@@ -64,42 +60,16 @@ const About = () => {
                 <p> <b>Mental well-being: </b> This includes being mindful of your thoughts, emotions, and which influences your interactions with yourself and others. This includes being mindful of your thoughts, emotions, and which influences your interactions with yourself and others. </p>
                 <p> <b>Social well-being: </b> Social support is a crucial aspect of our well-being. This aspect includes the connection you have with others, the way you interact, connect and form bonds with others</p>
                 <p> <b>Spiritual well-being: </b> This encompasses feeling connected to the inner self and/or believing in a higher power. Spiritual well-being may help us find meaning in life and inspire us to move forward. </p>
-           
-           
-            </div>
-            <div className='yoga'>
+                <div className='yoga'>
            <h2 className='yoga_way'> Yoga Your Way of Life</h2>
            <h2 className='yoga_way'> Yoga practice gives you great Health and Well-being</h2>
            <img className="benyog" src={process.env.PUBLIC_URL + "/Images/benyog1.jpg"} alt="yoga" />
             </div>
-            <div className='footer_cont'>
-      <div className='nav_cont'>
-      <Link className="cont_nav_name" to="/">Home</Link>
-        <Link className="cont_nav_name" to="/feng">Fengshui</Link>
-        <Link className="cont_nav_name" to="/healing">Sound Healing</Link>
-        <Link className="cont_nav_name" to="/corporate">Corporate Yoga</Link>
-        <Link className="cont_nav_name" to="/chakra">Chakra Balancing</Link>        
-       
-      </div>
-   <div className='copy_logo'>
-   <abbr title='Contact us on Whatsapp'> 
-    <ReactWhatsapp className='whatsapp_logo' number="9021368710" message="Hello World!!!"> <SvgWhatsAppIcon color='success' sx={{ fontSize: 30}}> </SvgWhatsAppIcon> </ReactWhatsapp>
-    </abbr>
-    <abbr title="connect on LinkedIN">
-    <SvgLinkedInIcon sx={{ fontSize: 30, color: "#0077b5"}} />
-    </abbr>
-    <abbr title="connect on Instagram">
-    <SvgInstagramIcon sx={{ fontSize: 30, color: "#fec564"}} className="insta" />
-    </abbr>
-    <abbr title="connect on Facebook">
-      <SvgFacebookIcon color='secondary' sx={{ fontSize: 30, color: "#0077b5"}} className="insta" />
-    </abbr>
-    <h5 className='copyright'> Copyright &#169; 2022 Parshava Wellness. All Rights Reserved
-   </h5>
-   </div>
-  
-    
-    </div> 
+            <Footer />
+           
+            </div>
+           
+           
         </div>
     )
 }

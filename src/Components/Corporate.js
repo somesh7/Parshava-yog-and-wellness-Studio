@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from './Footer';
+
 
 const Corporate = () => {
   return (
@@ -19,7 +21,7 @@ const Corporate = () => {
       </p>
       </div>
       <div className='right2'>
-      <img src={process.env.PUBLIC_URL + "/Images/corporate yogaa.jpg"} alt="yoga" />
+      <img className='corporate_right' src={process.env.PUBLIC_URL + "/Images/corporate yogaa.jpg"} alt="yoga" />
       </div>
 
       </span>
@@ -71,6 +73,7 @@ const Corporate = () => {
        <h3 className='onetimeyoga'> Rapid Yoga - 20 minutes Desktop Yoga Workshop - One time or multiple time in a month.</h3>
        <p>(Especially for IT and BPO professionals. A quick 15 - 20-minutes session, can be done in office space near the workstations, micro exercises for every part of the body, can be done standing in office clothes) This is a Workshop conducted for smaller groups at their desktops. It covers the asanas that one can practice at their desk before, after or during work.</p>
      </div>
+     <Footer />
         </div>
 
     </>

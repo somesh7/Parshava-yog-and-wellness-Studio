@@ -21,7 +21,7 @@ setComp(true);
 <p className='para_chakra'>7 chakras are the 7 wheels of energy in our body. Blocked energy in any of the 7 chakras may lead to illness. That is why, it is essential to understand what every chakra represents and how to keep energy flowing freely?</p>
 </div>
 <div className='right3'>
-<img src={process.env.PUBLIC_URL + "/Images/parshavaYoga12.jpeg"} alt="yoga" />
+<img className="chakra_right" src={process.env.PUBLIC_URL + "/Images/parshavaYoga12.jpeg"} alt="yoga" />
 </div>
 </span>
 <h3> 7 Chakras 7 Benefits</h3>

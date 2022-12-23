@@ -22,8 +22,9 @@ const Healing = () => {
   <h3>So, how does it work? </h3>
    <p>During a sound healing session, <b>also known as a sound bath</b>, you'll typically lie down on the floor or a yoga mat, and simply listen up as a practitioner plays all 7 chakra Sound bowls and you "bathe" in the soothing sounds and vibrations. <b>Roxie Sarhangi</b>, a certified sound healing practitioner based in Los Angeles, describes it as a "meditative acoustic sound concert." The sound frequencies then <b> slow down brain waves to a deeply restorative state</b>, which activates the body's system of self-healing.</p>
   </div>
+  <h3 className='fourben'>4 benefits of sound healing</h3>
  <div className='b1'>
- <h3 className='fourben'>4 benefits of sound healing</h3>
+ 
  <ul type="none"> 
  <li className='benefit_sound1'>
  1. It's super-relaxing

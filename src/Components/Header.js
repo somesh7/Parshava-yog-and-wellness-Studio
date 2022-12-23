@@ -114,15 +114,16 @@ const Header = () => {
                 .hamburger{
                     opacity: 0;
                     z-index: 6;
-                    left: 0;
+                    right: 0;
                     margin-right: 4rem;
                 } 
-                @media (max-width: 768px){
+                @media (max-width: 847px){
                   
                     .hamburger{
                        opacity: 1;
                         z-index: 6;
                         margin-left: 1rem;
+                        position: fixed;
                     }
                 
                    
@@ -130,7 +131,7 @@ const Header = () => {
                         display: ${hamburgerOpen ? 'inline' : 'none'};
                         background-color: rgb(167 139 250);
                         height: 100%;
-                        width: 7rem;
+                        width: 100%;
                         margin-top: 2.5rem;
                         position: fixed;
                         left: 0;

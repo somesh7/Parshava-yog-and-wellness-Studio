@@ -20,7 +20,7 @@ const Hamburger = ({ isOpen }) => {
                     width: 1.5rem;
                     height: 0.15rem;
                     border-radius: .7rem;
-                    background-color: #fff;
+                    background-color: #000;
                     transform-origin: 1px;
                     transition: all 0.3s linear;
                 }
