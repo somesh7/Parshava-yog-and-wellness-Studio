@@ -45,7 +45,11 @@ const Header = () => {
     <div className='header'>
     <div className='logo_brand'> 
     <img className='image_logo' src={process.env.PUBLIC_URL + "/Images/logo2022.png"} alt="Parshava" />
+    <div className="holihai">
     <h1> Parshava Yog and Wellness Studio </h1>
+    <h1 className="holistic"> -----Holistic Wellness-----</h1>
+    </div>
+
     </div>
    
     
@@ -117,12 +121,20 @@ const Header = () => {
                     right: 0;
                     margin-right: 4rem;
                 } 
-                @media (max-width: 847px){
+                @media (max-width: 388px) {
+                  .hamburger{
+                       opacity: 1;
+                        z-index: 6;
+                        margin-left: 3rem !important;
+                        position: fixed;
+                    }
+                }
+                @media (max-width: 1060px){
                   
                     .hamburger{
                        opacity: 1;
                         z-index: 6;
-                        margin-left: 1rem;
+                        margin-left: 2rem;
                         position: fixed;
                     }
                 

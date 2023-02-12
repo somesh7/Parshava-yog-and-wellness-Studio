@@ -1,6 +1,7 @@
 import React from 'react'
 import SvgWhatsAppIcon from '@mui/icons-material/WhatsApp';
 import ReactWhatsapp from 'react-whatsapp';
+import Footer from './Footer';
 const Chakratotal = () => {
     const bookConsultation = () => {
 
@@ -97,6 +98,7 @@ const Chakratotal = () => {
     
     </div>
     </div>
+    <Footer />
         {/* <card className="card">
 <img className='image_book' src={process.env.PUBLIC_URL + "/Images/Book.jpg"} alt="Chakras" />
 <div className='card_content'>

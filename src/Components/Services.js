@@ -16,6 +16,12 @@ navigate('/healing')
     const navToCor = () => {
 navigate('/corporate')
     }
+    const navToChakra = () => {
+        navigate('/chakratotal')
+      }
+      const navToPran = () => {
+        navigate("/pran")
+      }
   return (
  <>
  <div className='serv'>
@@ -45,6 +51,16 @@ navigate('/corporate')
 <img className='servHeal' src={process.env.PUBLIC_URL + "/Images/Feng-Shui1.jpg"} alt="Feng Shui" onClick={navToFeng} />
 <h4 className='ser_text_All'> Feng Shui</h4>
 <button className='serv_btn_all' onClick={navToFeng}>View</button>
+</div>
+<div className="card_Serv">
+<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/praanic1.jpg"} alt="Feng Shui" onClick={navToPran} />
+<h4 className='ser_text_All'> Pranic Healing</h4>
+<button className='serv_btn_all' onClick={navToPran}>View</button>
+</div>
+<div className="card_Serv">
+<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/praanic1.jpg"} alt="Feng Shui" onClick={navToFeng} />
+<h4 className='ser_text_All'> Chakra Balancing</h4>
+<button className='serv_btn_all' onClick={navToChakra}>View</button>
 </div>
 
        </div>

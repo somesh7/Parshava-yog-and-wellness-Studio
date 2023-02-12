@@ -5,7 +5,7 @@ const Offer = () => {
     <div className='course'>
     <div className="services">
       <ul className='olt' type="none">  
-<li className='olt_text'> Group Yoga Classes (Along with sound healing) -  </li>
+<li className='olt_text'> Group Yoga Classes -  </li>
       </ul>
        <span className='well'>
        <div className='left'> 

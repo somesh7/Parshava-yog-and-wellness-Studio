@@ -1,17 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import img1 from "../images/MadhaviImg.jpg"
-import img2 from "../images/MadhaviImg1.jpg"
-import img3 from "../images/MadhaviImg3.jpg"
-import img4 from "../images/Parshav_contact.jpg"
+import img2 from "../images/MadhaviImg1.jpg";
+import img3 from "../images/MadhaviImg3.jpg";
+import img4 from "../images/madhaviimg0202.png";
+import img5 from "../images/madhaviimg010202.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import Footer from './Footer';
+import Chakratotal from './Chakratotal';
 
 
 
 const Home = () => {
+  const[comp, setComp] = useState(false);
+
   const navigate = useNavigate()
   const navToMain = () => {
 navigate('/healing')
@@ -25,6 +27,18 @@ navigate('/healing')
   const navToCor = () => {
 navigate('/corporate')
   }
+  const navToChakra = () => {
+    navigate('/chakratotal')
+  }
+  const navToPran = () => {
+    navigate("/pran")
+  }
+  const readMore = () => {
+    setComp(true);
+      }
+      const showLess = () => {
+        setComp(false)
+      }
   return (<>
    {/* <div className="new_homealice">
     <SimpleImageSlider
@@ -47,17 +61,28 @@ navigate('/corporate')
 </AliceCarousel> */}
 <Carousel autoPlay interval={1500} autoFocus infiniteLoop showArrows={true} showIndicators={false} showThumbs={false} swipeable={true} showStatus={false}>
                 <div>
-                    <img src={img2} />
+                    <img src={img2} alt="home" />
                     
                 </div>
                 <div>
-                    <img src={img3} />
+                    <img src={img3} alt="home" />
                 </div>
                 <div>
-                    <img src={img4} />
+                    <img src={img4} alt="home" />
+                </div>
+                <div>
+                    <img src={img5} alt="home" />
                 </div>
             </Carousel>
+         
   </div>
+  {/* {
+  comp === false ? <button className='readmore' onClick={readMore}> Know your Chakra</button> : 
+  <Chakratotal />
+}
+{
+  comp === true ? <button className='readmore' onClick={showLess}> Show Less</button> : ""
+} */}
   <div className="service_cards">
        
        <div className='cards'>
@@ -80,6 +105,16 @@ navigate('/corporate')
 <img className='servHeal' src={process.env.PUBLIC_URL + "/Images/Feng-Shui1.jpg"} alt="Feng Shui" onClick={navToFeng} />
 <h4 className='ser_text_All'> Feng Shui</h4>
 <button className='serv_btn_all' onClick={navToFeng}>View</button>
+</div>
+<div className="card_Serv">
+<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/praanic1.jpg"} alt="Feng Shui" onClick={navToPran} />
+<h4 className='ser_text_All'> Pranic Healing</h4>
+<button className='serv_btn_all' onClick={navToPran}>View</button>
+</div>
+<div className="card_Serv">
+<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/ChakraAll.jpg"} alt="Feng Shui" onClick={navToFeng} />
+<h4 className='ser_text_All'> Chakra Balancing</h4>
+<button className='serv_btn_all' onClick={navToChakra}>View</button>
 </div>
 
        </div>

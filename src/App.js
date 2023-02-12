@@ -13,6 +13,7 @@ import Fengshui from './Components/Fengshui';
 import Services from './Components/Services';
 import Corporate from './Components/Corporate';
 import ScrollToTop from "./Components/ScrollToTop";
+import Pranic from './Components/Pranic';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
      <Route  exact path="/chakratotal" element={<Chakratotal/>} />
      <Route  exact path="/feng" element={<Fengshui/>} />
      <Route exact path="/modal" element={<Contact />} />
+     <Route exact path="/pran" element={<Pranic />} />
    </Routes>
 
    </BrowserRouter>

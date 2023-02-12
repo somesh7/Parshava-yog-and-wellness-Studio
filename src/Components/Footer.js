@@ -29,9 +29,12 @@ const Footer = () => {
     <abbr title="connect on LinkedIN">
     <SvgLinkedInIcon sx={{ fontSize: 30, color: "#fff"}} />
     </abbr>
+    <a href='https://www.instagram.com/parshava_wellness_studio/?igshid=ZmZhODViOGI%3D' target="_blank" rel="noopener noreferrer">
     <abbr title="connect on Instagram">
     <SvgInstagramIcon sx={{ fontSize: 30, color: "#fff"}} className="insta" />
     </abbr>
+    </a>
+ 
     <abbr title="connect on Facebook">
       <SvgFacebookIcon color='secondary' sx={{ fontSize: 30, color: "#fff"}} className="insta" />
     </abbr>

@@ -17,7 +17,26 @@ background-color: whitesmoke;  color: #fff;
 .logo_brand {
   display: flex;
   flex-direction: row;
+  align-items: center !important;
+}
+.holihai {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.holistic {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: -1.2rem;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 h1 {
   /* color: rgb(253 230 138); */
@@ -452,7 +471,7 @@ a.menu-active {
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
-overflow: hidden;
+ overflow: hidden;
 }
 .sound_healing {
   margin-top: 5rem;
@@ -466,7 +485,7 @@ overflow: hidden;
 .readmore {
   margin-top: 2rem;
   margin-bottom: 3rem;
-  width: 6rem;
+  width: 10rem;
   height: 2.5rem;
   border: none;
   background-color: rgb(31 41 55);
@@ -474,6 +493,32 @@ overflow: hidden;
   font-size: 1rem;
   border-radius: .3rem;
   cursor: pointer;
+}
+.bookingsess {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bpshcbs {
+  font-size: 2rem;
+}
+.logoplustext {
+  width: 18rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+.whatsapp_logo3 {
+  border: none;
+  font-size: 1.2rem;
+  width: 20rem;
 }
 .b1 {
   width: 80%;
@@ -664,7 +709,7 @@ h4 {
   justify-content: center;
   align-items: center;
 overflow: hidden;
-margin-bottom: 2rem;
+margin-top: 5rem;
 }
 .chakra_more1 {
   color: #000;
@@ -673,7 +718,7 @@ margin-bottom: 2rem;
   font-weight: 300;
 }
 .seven_chakra {
-  height: 180rem;
+  height: auto;
   width: 100%;
   border: none;
   background-color: rgb(31 41 55);
@@ -749,9 +794,10 @@ align-items: center;
 overflow: hidden;
 }
 .cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between !important;
+  display: grid;
+grid-template-columns: repeat(3, 1fr); 
+grid-auto-rows: auto;
+grid-gap: 1rem;
 }
 
 .card_Serv {
@@ -846,6 +892,16 @@ h5 {
   justify-content: center;
   align-items: center;
 }
+.pranic {
+  margin-top: 10rem;
+  height: auto;
+}
+.pranic_Ben {
+  margin-left: 2rem;
+}
+.pranic_text {
+  font-size: 1.5rem;
+}
 .contact_head {
   width: 100%;
   margin-top: 6rem;
@@ -865,7 +921,7 @@ h5 {
 }
 .profession {
   width: 100%;
-  height: 2.5rem;
+  height: 5rem;
   background-color: rgb(234 88 12);
   display: flex;
   justify-content: center;
@@ -915,7 +971,7 @@ height: 30rem;
   margin-left: 1rem;
 }
 .ow_num {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 .footer_cont {
@@ -1011,6 +1067,18 @@ text-align: center;
 /* Media Queries for responsiveness */
 
 @media (max-width: 768px){
+  .holihai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 15rem;
+    }
+    .holistic {
+      font-size: 1rem;
+      padding: 1rem;
+    }
   .corporate_right {
     width: 25rem;
   }
@@ -1068,20 +1136,20 @@ text-align: center;
   .icon_bottom {
     display: none;
   }
-  icon_bottom_icon {
+  .icon_bottom_icon {
     display: none;
   }
 .header {
   width: 100%;
   display: flex;
   flex-direction: row !important;
-    justify-content: space-evenly;
+    justify-content: space-between;
   align-items: center !important;
   z-index: 1;
   height: 8rem;
 }
 h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 ul {
@@ -1156,9 +1224,10 @@ h2 {
   width: 25rem;
 }
 .cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between !important;
+    display: grid;
+grid-template-columns: repeat(1, 1fr); 
+grid-auto-rows: auto;
+grid-gap: .5rem;
 }
 .after_home {
   display: flex;
@@ -1256,7 +1325,7 @@ margin-top: none;
   display: flex;
   flex-direction: row;
   align-items: center !important;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 .servstyle {
 
@@ -1293,6 +1362,25 @@ padding: 1rem;
 }
 }
 @media (max-width: 500px) {
+  .holistic {
+    font-size: .7rem;
+    padding: 1rem !important;
+    margin-left: .5rem;
+  }
+  .holihai {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .cards {
+    display: grid;
+grid-template-columns: repeat(1, 1fr); 
+grid-auto-rows: auto;
+grid-gap: .5rem;
+}
   .ow_name {
     font-size: 1.2rem;
   }
@@ -1350,7 +1438,7 @@ padding: 1rem;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     z-index: 1;
   }
@@ -1360,16 +1448,16 @@ padding: 1rem;
     object-fit: auto;
   }
   .logo_brand {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center !important;
     height: 5rem;
     position: absolute;
-    margin-right: 8rem;
+
   }
   h1 {
-    min-width: 8rem;
    font-size: 1.2em;
   }
   .word1 {
@@ -1664,6 +1752,14 @@ width: 30rem;
 }
 }
 @media(min-width: 769px) and (max-width: 1090px) {
+  .holihai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 25rem;
+  }
   .corporate_right {
     width: 35rem;
   }
@@ -1749,9 +1845,10 @@ width: 30rem;
     width: 60rem;
   }
   .cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
   }
   .after_home {
     display: flex;
@@ -1791,4 +1888,9 @@ width: 30rem;
     padding: 1rem;
     text-align: center;
   }
+}
+@media(max-width: 388px) {
+.header {
+  height: 8rem;
+}
 }

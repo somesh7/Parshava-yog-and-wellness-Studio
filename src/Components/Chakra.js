@@ -1,15 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import SvgCheckSharpIcon from '@mui/icons-material/CheckSharp';
-import Chakratotal from './Chakratotal';
+import SvgWhatsAppIcon from '@mui/icons-material/WhatsApp';
+import ReactWhatsapp from 'react-whatsapp';
 const Chakra = () => {
-  const[comp, setComp] = useState(false);
-   
-    const readMore = () => {
-setComp(true);
-    }
-    const showLess = () => {
-      setComp(false)
-    }
+ 
   return (
     <>
         <div className='chakra_div'>
@@ -37,14 +31,12 @@ setComp(true);
 <h4 className="benefits_chakra1">From above benefits it is clear that clear and healthy functioning chakras certainly propel you into the life you deserve to live.</h4>
 <h4 className='benefits_chakra'> Tap into the healing potential of your chakra energetic system.</h4>
 </div>
-{
-  comp === false ? <button className='readmore' onClick={readMore}> Read More</button> : 
-  <Chakratotal />
-}
-{
-  comp === true ? <button className='readmore' onClick={showLess}> Show Less</button> : ""
-}
-
+  <div className="bookingsess">
+   <h2 className="bpshcbs"> Book personal Sound Healing and Chakra Balancing session</h2>
+   
+    <ReactWhatsapp className='whatsapp_logo3' number="9021368710" message=" Hello, Book a consultation today !!!">  <button className="logoplustext"> Book Consultation on whatsapp</button> </ReactWhatsapp>
+   
+  </div>
         </div>
     </>
   )

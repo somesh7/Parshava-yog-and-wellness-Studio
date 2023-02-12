@@ -2,8 +2,8 @@ import React from 'react'
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 // import img1 from "../images/MadhaviImg.jpg"
-import img2 from "../images/MadhaviImg1.jpg"
-import img3 from "../images/MadhaviImg3.jpg"
+import img2 from "../images/Grp_yoga1.jpg"
+import img3 from "../images/Parshav_contact.jpg"
 import group1 from "../images/homeimg001.jpg"
 import Footer from './Footer';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -18,13 +18,13 @@ const About = () => {
   <h2 className='servstyle'> About Us</h2>
             <div className='about_us'>
             <p>
-                    <span className="brand"><b>Parshava</b> </span> came into existence in Sep 2022 in Kharadi, Pune, to help people foster their inner growth and sense of mindfulness and peace in the surrounding community. Our spiritual and scientifically designed programs help people relieve their physical and mental pains and improve their overall wellbeing.
+                    <span className="brand"><b>Parshava</b> </span> came into existence in Sep 2022 in Kharadi, Pune, to help people foster their inner health, disease free life and sense of mindfulness. Our Yoga and Healing technique scientifically designed programs help people relieve their physical and mental sufferings and improve their overall wellbeing.
                 </p>
               <div className='about_parshava'>
               <div className='paragraph_About'>
-             
+             <p>Our yoga classes are for all age groups and generally follow the Iyenger style Yoga, Hatha Yoga, Vinyasa Flow and Power Yoga forms. Whether you are new to yoga or an experienced student, we look forward to welcoming you soon.</p>
                 <p>
-                    <b>Ms. Madhavi Jain </b>is the founder of <b>Parshava Yog and Wellness Studio Kharadi Pune</b>, She was an Human Resource in IT MNC Hinjewadi Pune, turned yoga instructor. She has transformed her life over the last few years. she spent almost a decade of Yoga practice in a traditional way, and thereafter contemplates the teachings to help people from all walks of life, she is certified Hatha Yoga and Iyenger style Yoga Instructor and She is also certified Sound Healer from Himalayan Academy, Rishikesh and certified Pranic Healer (one stop for all solution for all issues).
+                    <b>Ms. Madhavi Jain </b>is the founder of <b>Parshava Yog and Wellness Studio Kharadi Pune</b>, She was working as a Human Resource in IT MNC Hinjewadi Pune, turned full time Yoga instructor. She has transformed her life over the last few years. she spent almost a decade of Yoga practice in a traditional way, and thereafter contemplates the teachings to help people from all walks of life, she is certified Hatha Yoga and Iyenger style Yoga Instructor and She is also certified Sound Healer from Himalayan Academy, Rishikesh and Pranic Healer.
                 </p>
                 <p>
                 She is on an endeavor to bring holistic wellness in people's life at a physical, mental and spiritual level. The whole approach is to help people take a Parshava the timeless scientific and spiritual tools to bring back harmony and balance in life. Parshava Yog classes are designed to meet your health objective. Individual attention and hand-holding is ensured to maximize results.
@@ -33,14 +33,14 @@ const About = () => {
               <div className='pimg'>
               <Carousel className='new_carosel' autoPlay interval={1500} autoFocus infiniteLoop showArrows={true} showIndicators={false} showThumbs={false} swipeable={true} showStatus={false}>
                 <div>
-                    <img className='auto_about_img' src={group1} />
+                    <img className='auto_about_img' src={group1} alt="about" />
                     
                 </div>
                 <div>
-                    <img className='auto_about_img' src={img2} />
+                    <img className='auto_about_img' src={img2} alt="about" />
                 </div>
                 <div>
-                    <img className='auto_about_img' src={img3} />
+                    <img className='auto_about_img' src={img3} alt="about" />
                 </div>
             </Carousel>
               </div>

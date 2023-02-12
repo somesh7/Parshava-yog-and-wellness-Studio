@@ -15,7 +15,7 @@ const Contact = () => {
 
  return (<>
   <div className='contact_head'>
-  <img className='contact_img' src={process.env.PUBLIC_URL + "/Images/contact_us1.jpg"} alt="contact" />
+  {/* <img className='contact_img' src={process.env.PUBLIC_URL + "/Images/contact_us1.jpg"} alt="contact" /> */}
       <card className='contact_card'>
       <div className='owner_num'>
       <span className="cont_logo12">
@@ -32,7 +32,7 @@ const Contact = () => {
      </span>
      <span className="cont_logo12">
      <SvgPlaceIcon sx={{ fontSize: 30, color: "#fff"}} /> 
-     <h6 className='ow_name'> Shop No - 5, Blue Berry Rd, opposite Deccan Gold Society, Tulaja Bhawani Nagar, Kharadi, Pune, Maharashtra 411014</h6>
+     <h6 className='ow_name'>Gera Imperium Alpha 10th floor office number 1023 , Kharadi pune, Pune, Maharashtra 411014</h6>
      </span>
      
     </div>
