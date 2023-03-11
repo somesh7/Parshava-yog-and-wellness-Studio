@@ -36,9 +36,7 @@ const Contact = () => {
      </span>
      
     </div>
-    <div className="profession">
-<h6 className='ow_num'> Certified Yoga Instructor,Sound Healer and Pranic Healer</h6>
-     </div>
+    
       </card>
       <Footer />
   </div>

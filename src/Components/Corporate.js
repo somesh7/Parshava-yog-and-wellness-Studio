@@ -21,7 +21,7 @@ const Corporate = () => {
       </p>
       </div>
       <div className='right2'>
-      <img className='corporate_right' src={process.env.PUBLIC_URL + "/Images/corporate yogaa.jpg"} alt="yoga" />
+      <img className='corporate_right' src={process.env.PUBLIC_URL + "/Images/corporate_yoga_pic.png"} alt="yoga" />
       </div>
 
       </span>
@@ -62,8 +62,11 @@ const Corporate = () => {
         <h3 className="sessions">You can avail Corporate Yoga sessions in the following formats</h3>
         <h3 className='onetimeyoga'> 1-Time yoga workshops : 40 to 60 mins</h3>
         <h3 className='categ'> Standing and desktop yoga</h3>
-        <p> This workshop gives employees an understanding about Yoga and its benefits. This will be an interactive workshop making sure each participant leaves the session with maximum learning. We will also talk about Holistic lifestyle.</p>
-      <p>It includes various asanas, Stretching and Meditation (relaxation and stress reduction) and Tibetian Sound Healing. Also share diet and food habits</p>
+        <p>This workshop gives employees an understanding about Yoga and its benefits. This will be an interactive workshop making sure each participant leaves the session with maximum learning. </p>
+        <p><b>Computer Ergonomics & Chair yoga</b> (Correcting Postures and yoga poses that can be done while seated in a chair) </p>
+
+<p>It includes various Asanas & Stretchings (specially related to current health issues), Breath work and Meditation with <b>Tibetian Sound Healing</b>. We also talk about daily eating habits (do and dont’s) and will talk about holistic way of living.
+</p>
       </div>
      <div className='cor2'>
      <h3 className='onetimeyoga'> 60 minutes - Yoga sessions</h3>
@@ -73,6 +76,18 @@ const Corporate = () => {
        <h3 className='onetimeyoga'> Rapid Yoga - 20 minutes Desktop Yoga Workshop - One time or multiple time in a month.</h3>
        <p>(Especially for IT and BPO professionals. A quick 15 - 20-minutes session, can be done in office space near the workstations, micro exercises for every part of the body, can be done standing in office clothes) This is a Workshop conducted for smaller groups at their desktops. It covers the asanas that one can practice at their desk before, after or during work.</p>
      </div>
+     <div className='cor3'>
+<h3 className='onetimeyoga'>Traditional Yoga Monthly/Quarterly/halfyearly Subscriptions </h3>
+<p>(Asanas & Pranayam) (long session of around 45 minute, require more time , space and mats): Can be done twice or thrice in a week.</p>
+     </div>
+     <div className='cor3'> 
+     	<h3 className='onetimeyoga'>
+       Special corporate meditation Sessions	(30 min-40 min)
+       </h3>
+       <p>
+       A club for guided meditation offers your team a vehicle to improve their sense of overall peace, enhancing their engagement and productivity. Providing space and time to exercise mindful meditation at work shows your staff that you value them as employees and people.
+       </p>
+       </div>
      <Footer />
         </div>
 

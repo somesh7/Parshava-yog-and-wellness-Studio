@@ -22,6 +22,9 @@ navigate('/corporate')
       const navToPran = () => {
         navigate("/pran")
       }
+      const navToKids = () => {
+        navigate('/kids')
+      }
   return (
  <>
  <div className='serv'>
@@ -58,9 +61,9 @@ navigate('/corporate')
 <button className='serv_btn_all' onClick={navToPran}>View</button>
 </div>
 <div className="card_Serv">
-<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/praanic1.jpg"} alt="Feng Shui" onClick={navToFeng} />
-<h4 className='ser_text_All'> Chakra Balancing</h4>
-<button className='serv_btn_all' onClick={navToChakra}>View</button>
+<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/Kidsyoga.jpeg"} alt="Yoga for kids" onClick={navToFeng} />
+<h4 className='ser_text_All'> Yoga for Kids and Teens</h4>
+<button className='serv_btn_all' onClick={navToKids}>View</button>
 </div>
 
        </div>

@@ -27,8 +27,8 @@ navigate('/healing')
   const navToCor = () => {
 navigate('/corporate')
   }
-  const navToChakra = () => {
-    navigate('/chakratotal')
+  const navToKids = () => {
+    navigate('/kids')
   }
   const navToPran = () => {
     navigate("/pran")
@@ -59,7 +59,7 @@ navigate('/corporate')
       <img src={img2} className="aliceimghome" alt="wellness1"/>
      
 </AliceCarousel> */}
-<Carousel autoPlay interval={1500} autoFocus infiniteLoop showArrows={true} showIndicators={false} showThumbs={false} swipeable={true} showStatus={false}>
+<Carousel autoPlay interval={1500} autoFocus infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} swipeable={true} showStatus={false}>
                 <div>
                     <img src={img2} alt="home" />
                     
@@ -87,12 +87,12 @@ navigate('/corporate')
        
        <div className='cards'>
 <div className="card_Serv">
-<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/GYog.png"} alt="Group yoga" onClick={navToOffer} />
+<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/Parshav_contact.jpg"} alt="Group yoga" onClick={navToOffer} />
 <h4 className='ser_text_All'> Group Yoga</h4>
 <button className='serv_btn_all' onClick={navToOffer}>View</button>
 </div>
 <div className="card_Serv">
-<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/corporate_serv.jpg"} alt="Corporate yoga" onClick={navToCor} />
+<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/corporate_yoga_pic.png"} alt="Corporate yoga" onClick={navToCor} />
 <h4 className='ser_text_All'> Corporate Yoga</h4>
 <button className='serv_btn_all' onClick={navToCor}>View</button>
 </div>
@@ -107,14 +107,14 @@ navigate('/corporate')
 <button className='serv_btn_all' onClick={navToFeng}>View</button>
 </div>
 <div className="card_Serv">
-<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/praanic1.jpg"} alt="Feng Shui" onClick={navToPran} />
+<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/praanic1.jpg"} alt="Pranic Healing" onClick={navToPran} />
 <h4 className='ser_text_All'> Pranic Healing</h4>
 <button className='serv_btn_all' onClick={navToPran}>View</button>
 </div>
 <div className="card_Serv">
-<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/ChakraAll.jpg"} alt="Feng Shui" onClick={navToFeng} />
-<h4 className='ser_text_All'> Chakra Balancing</h4>
-<button className='serv_btn_all' onClick={navToChakra}>View</button>
+<img className='servHeal' src={process.env.PUBLIC_URL + "/Images/Kidsyoga.jpeg"} alt="Yoga for kids" onClick={navToFeng} />
+<h4 className='ser_text_All'> Yoga for Kids and Teens</h4>
+<button className='serv_btn_all' onClick={navToKids}>View</button>
 </div>
 
        </div>

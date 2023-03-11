@@ -14,6 +14,7 @@ import Services from './Components/Services';
 import Corporate from './Components/Corporate';
 import ScrollToTop from "./Components/ScrollToTop";
 import Pranic from './Components/Pranic';
+import Kids from './Components/Kids';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
      <Route  exact path="/feng" element={<Fengshui/>} />
      <Route exact path="/modal" element={<Contact />} />
      <Route exact path="/pran" element={<Pranic />} />
+     <Route exact path="/kids" element={<Kids />} />
    </Routes>
 
    </BrowserRouter>

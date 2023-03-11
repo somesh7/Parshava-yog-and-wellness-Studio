@@ -44,7 +44,7 @@ const Header = () => {
     <>
     <div className='header'>
     <div className='logo_brand'> 
-    <img className='image_logo' src={process.env.PUBLIC_URL + "/Images/logo2022.png"} alt="Parshava" />
+    <img className='image_logo' src={process.env.PUBLIC_URL + "/Images/logofinal23.jpg"} alt="Parshava" />
     <div className="holihai">
     <h1> Parshava Yog and Wellness Studio </h1>
     <h1 className="holistic"> -----Holistic Wellness-----</h1>
